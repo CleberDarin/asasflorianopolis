@@ -1,0 +1,372 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #263138;
+}
+
+header {
+    background-color: #81bff2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 80px;
+}
+
+header nav a {
+    color: #FFFFFF;
+    font-weight: 600;
+    padding: 32px;
+    padding-left: 0px;
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.logo_1 {
+    display: flex;
+    justify-content: center;
+    margin-right: 10rem;
+}
+
+.logo_1 img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.footer nav a {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.logo_asas h1 {
+    text-align: center;
+    margin: 1em auto;
+}
+
+.logo_asas_imagem img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 90%;
+}
+
+h1,
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 1em;
+}
+
+.paragrafo {
+    text-align: justify;
+    line-height: 1.5;
+    margin: 0 auto 1em auto;
+    max-width: 950px;
+}
+
+.logo_asas p {
+    text-align: justify;
+    margin: 0 auto 2em auto;
+    max-width: 70%;
+}
+
+.agenda h3 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 5%;
+}
+
+.agenda p {
+    text-align: center;
+    margin: 0.5em 0;
+}
+
+.agenda img {
+    display: block;
+    margin: 0 auto 2em auto;
+    border-radius: 5%;
+}
+
+.orixas p {
+    text-align: justify;
+    line-height: 1.5;
+    margin: 0 auto 8px auto;
+    max-width: 950px;
+}
+
+.orixas img {
+    display: block;
+    margin: 0 auto 2em auto;
+    border-radius: 40%;
+}
+
+.button a,
+.button_conheca a,
+.contato_umbanda a,
+.servicos a {
+    background-color: #81bff2;
+    border-radius: 8px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    padding: 16px;
+    display: block;
+    max-width: 500px;
+    margin: 2em auto;
+}
+
+.button-transparent {
+    background-color: transparent;
+    padding: 16px 32px;
+    text-underline-offset: 4px;
+    margin-left: 0.2em;
+}
+
+.button2,
+.button3 {
+    background-color: #81bff2;
+    border-radius: 8px;
+    color: #263138;
+    text-decoration: none;
+    padding: 16px;
+}
+
+a .button2 {
+    transition: transform 0.3s ease;
+}
+
+#inicio h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#inicio p {
+    max-width: 1024px;
+}
+
+.orixas p {
+    max-width: 1024px;
+}
+
+.orixas h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.form-container {
+    display: none;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-container label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 10%;
+}
+
+.form-container input {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    text-align: left;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: block;
+}
+
+.form-container input[type="file"] {
+    padding: 8px;
+    background-color: white;
+}
+
+.form-container button {
+    width: 50%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px auto 0;
+    display: block;
+}
+
+.form-container button {
+    background-color: #81bff2;
+    border-radius: 8px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    padding: 16px;
+    display: block;
+    max-width: 500px;
+    margin: 2em auto;
+}
+
+.form-container button:hover {
+    background-color: #45a049;
+}
+
+
+.button a:hover {
+    background-color: #5f4617;
+}
+
+.amaci h1,
+.amaci h2,
+.mediunico h1,
+.servicos h1,
+.servicos h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 0.5em;
+}
+
+.amaci p,
+.mediunico p,
+.servicos p {
+    text-align: justify;
+    margin: 1em auto 2em auto;
+    max-width: 60%;
+}
+
+footer {
+    background-color: #81bff2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 8px 16px;
+}
+
+footer img,
+footer .titulo {
+    display: flex;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+footer nav a {
+    color: #263138;
+    display: block;
+    margin-bottom: 16px;
+    text-decoration: none;
+}
+
+footer p {
+    margin-bottom: 16px;
+    max-width: 350px;
+}
+
+footer p a {
+    color: #263138;
+    text-decoration: none;
+}
+
+#copyright {
+    background-color: #263138;
+    color: #81bff2;
+    padding: 24px;
+    text-align: center;
+}
+
+#copyright a {
+    color: #FFFFFF;
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 12px;
+    }
+
+    header nav a {
+        font-size: 14px;
+        padding: 6px 0;
+    }
+
+    h1,
+    h2,
+    .agenda h3,
+    .amaci h1,
+    .amaci h2,
+    .mediunico h1,
+    .servicos h1,
+    .servicos h2 {
+        font-size: 20px;
+        margin: 0.5em auto;
+        text-align: center;
+    }
+
+    .paragrafo,
+    .orixas p,
+    #inicio p,
+    .logo_asas p,
+    .amaci p,
+    .mediunico p,
+    .servicos p {
+        font-size: 14px;
+        padding: 0 12px;
+    }
+
+    .button a,
+    .button_conheca a,
+    .contato_umbanda a,
+    .servicos a {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .agenda img,
+    .orixas img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .logo_asas_imagem img {
+        width: 80%;
+    }
+
+    footer {
+        padding: 12px;
+    }
+
+    footer p {
+        font-size: 14px;
+        max-width: 100%;
+    }
+
+    footer nav a {
+        font-size: 14px;
+    }
+
+    #copyright {
+        font-size: 12px;
+        padding: 16px;
+    }
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="asasdearuanda">
+
+
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="./index.js"></script>
+
+    <title>Asas De Aruanda</title>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="./index.html">Início</a>
+            <a href="./umbanda.html">O que é Umbanda? E Orixás?</a>
+            <a href="./servicos.html">Serviços</a>
+        </nav>
+
+        <strong>Centro Espiritualista Asas De Aruanda</strong>
+
+    </header>
+    <hr>
+
+    <main>
+        <section class="logo_asas">
+
+            <div>
+                <h1>Bem-vindos ao Asas de Aruanda</h1><br>
+                <section class="logo_asas_imagem">
+                    <img src="./img/logo-asas.jpg" alt="asasdearuanda" width="880" height="580">
+                </section>
+                <p class="logo-asas">
+                    O Asas de Aruanda é um espaço sagrado onde a fé e a espiritualidade se encontram com a nova era,
+                    guiadas pela força destemida de Ogum, o amor infinito de Iemanjá e a sabedoria das encruzilhadas de
+                    Exu.
+                    Aqui, acreditamos que cada caminho é uma oportunidade para recomeçar e evoluir.
+                    Somos uma família de seres e pessoas que desejam transformar o mundo através da conexão profunda com
+                    os saberes da natureza.
+                    Acreditamos que essa reconexão nos permite viver de forma mais harmônica com nossa verdadeira
+                    essência e com todos os seres que compartilham esta morada sagrada chamada Terra.
+                    Nossa existência transcende o material. Somos livres, mas nunca nos afastamos da Umbanda raiz.
+                    Dançamos com o tempo, celebramos a magia natural e acreditamos que, assim como as fadas, podemos
+                    voar e expandir nossos horizontes espirituais.
+                    No Asas de Aruanda, oferecemos um espaço acolhedor e respeitoso para aqueles que buscam orientação,
+                    cura e crescimento espiritual. Aqui, a fé é vivida com amor, simplicidade e devoção.<br>
+
+                    Seja bem-vindo a este refúgio de luz e paz.</p><br>
+
+                <section class="button">
+                    <a class="button" href="#" onclick="mostrarFormulario(); return false;">Contato para doações</a>
+                </section>
+
+                <div class="form-container" id="formularioDoacao" style="display:none;">
+                    <form action="obrigado.html" method="post" enctype="multipart/form-data">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+
+                        <label for="idade">Idade:</label>
+                        <input type="number" id="idade" name="idade" required>
+
+                        <label for="localidade">Localidade:</label>
+                        <input type="text" id="localidade" name="localidade" required>
+
+                        <label for="cpf">CPF:</label>
+                        <input type="text" id="cpf" name="cpf" required pattern="\d{11}"
+                            title="Digite um CPF com 11 números, sem pontos ou traços">
+
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="telefone">Telefone de contato:</label>
+                        <input type="tel" id="telefone" name="telefone" required pattern="\d{10,11}"
+                            title="Digite apenas números com DDD">
+
+                        <div class="comprovante-container">
+                            <div class="comprovante-field">
+                                <label for="comprovante">Anexar comprovante:</label>
+                                <input type="file" id="comprovante" name="comprovante" accept=".pdf,.jpg,.jpeg,.png">
+                            </div>
+
+                            <div class="valor-field">
+                                <label for="valor">Valor doado (R$):</label>
+                                <input type="number" id="valor" name="valor" min="0" step="0.01" placeholder="0,00">
+                            </div>
+
+                        </div>
+
+                        <section class="button">
+                            <a class="button" href="obrigado.html">Enviar</a>
+                        </section>
+                    </form>
+        </section>
+
+        <section class="button_conheca">
+            <a class="button_conheca" href="umbanda.html">Conheça a Umbanda e nossos serviços</a>
+        </section>
+
+
+
+        <section class="agenda">
+            <div>
+                <h3>Agenda</h3><br>
+                <p class="agenda_calendario">
+                    Confira a agenda do mês:
+                </p>
+                <h3>Giras todas às quartas-feiras às 19h e aos sábados às 15h quinzenalmente</h3>
+            </div>
+            <img src="./img/Copia-de-Calendario-de-giras-marco-2-768x960.jpg" alt="" width="764" height="580">
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div>
+            <strong class="titulo">Links rápidos</strong>
+            <nav>
+                <a href="./index.html">Início</a>
+                <a href="./umbanda.html">Umbanda</a>
+                <a href="./servicos.html">Serviços</a>
+            </nav>
+        </div>
+
+        <div>
+            <strong class="titulo">Encontre-nos</strong>
+            <p>
+                <i class="fab fa-whatsapp"></i>
+                <a class="button2" href="https://wa.me/55489882996966" target="_blank">Whatsapp
+                </a>
+            </p>
+
+            <p>
+                <i class="fas fa-envelope"></i>
+                <a class="button3" href="mailto:asasdearuanda@gmail.com">E-mail
+                </a>
+            </p>
+
+            <p>
+                <i class="fab fa-instagram"></i>
+                <a class="button3" href="https://www.instagram.com/asasdearuanda/" target="_blank">@asasdearuanda
+                </a>
+            </p>
+
+
+            <p>
+                <i class="fas fa-map-marker-alt"></i>
+                <a class="button4" href="https://maps.app.goo.gl/dnSAoTXA9JDgNT1g9" target="_blank">Localização:
+                </a>
+                Servidão Bernardino Barcellos, 107 • Rio Tavares - Florianópolis-SC
+            </p>
+        </div>
+    </footer>
+
+    <div id="copyright">
+        Desenvolvido por <a href="https://www.linkedin.com/in/cleber-darin-8-408658171/" target="_blank">Cleber
+            Darin</a> Projeto Integrativo Univali
+    </div>
+
+</body>
+
+</html>
